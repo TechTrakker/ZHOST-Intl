@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZHOST Intl</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Latest Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- ************************************ -->
+</head>
+<!-- ****************************BODY SECTIONA START********************************************************* -->
+
+<body>
+    <div class="container-fluid top-bar d-flex justify-content-between align-items-center px-4">
+        <div>
+            <span id="top_cont"><i class="fas fa-envelope"></i> example@gmail.com</span>
+            <span class="ms-3" id="top_cont"><i class="fas fa-phone"></i> +92 346 6766569</span>
+        </div>
+        <div class="top_icon">
+            <a href="#"><i id="top_icons" class="fab fa-instagram"></i></a>
+            <a href="#"><i id="top_icons" class="fab fa-facebook"></i></a>
+            <a href="#"><i id="top_icons" class="fab fa-twitter"></i></a>
+            <a href="#"><i id="top_icons" class="fab fa-linkedin"></i></a>
+            <a href="#"><i id="top_icons" class="fab fa-threads"></i></a>
+        </div>
+    </div>
+    <div class="divider"></div>
+    <div class="container-fluid logo-bar px-4">
+        <div class="logo-container">
+            <img id="logo" src="logo.png" alt="logo">
+            <h1 id="main_cpt">ZHOST <span style="color:red;">Intl</span></h1>
+        </div>
+        <div class="search-box">
+            <input type="text" id="search_inp" placeholder="Search...">
+            <button type="submit" class="btn btn-success" id="search">Search</button>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Profile</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="productsDropdown" role="button"
+                            data-bs-toggle="dropdown">Products</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Boxing Equipments</a></li>
+                            <li><a class="dropdown-item" href="#">Sports Wear</a></li>
+                            <li><a class="dropdown-item" href="#">MMA Wear</a></li>
+                            <li><a class="dropdown-item" href="#">Martial Arts Wear</a></li>
+                            <li><a class="dropdown-item" href="#">Team Wear</a></li>
+                            <li><a class="dropdown-item" href="#">Gym Wear</a></li>
+                            <li><a class="dropdown-item" href="#">Gym Accessories</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Blogs</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Factory View</a></li>
+                    <li class="nav-item"><a class="nav-link" href="mailto:zhostinternational@gmail.com">Email</a></li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#">Login</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Register</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <hr style="margin:0;">
+
+    <!-- *******************************Main Content Start********************************************************** -->
+
+    <div class="slider-container mt-0">
+        <div id="customSlider" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="box2-slide.jpg" alt="Slide 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="box2-slide.jpg" alt="Slide 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="box2-slide.jpg" alt="Slide 3">
+                </div>
+                <div class="carousel-item">
+                    <img src="box2-slide.jpg" alt="Slide 4">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#customSlider" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#customSlider" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </button>
+        </div>
+    </div>
+    <!-- IMAGES DIVE CATEGORIES *********************************************************** -->
+    <!-- Products images************************************************* -->
+    <div class="product-showcase">
+        <div class="product-row">
+            <div class="product-container">
+                <img id="product1" src="https://www.bedestructive.com/pictures/msecimgs/msec_2.jpg" alt="Product 1"
+                    class="product-image">
+                <div class="product-hover-info">
+                    <h4 class="product-name">Martial Arts Wear</h4>
+                    <p class="product-desc">12 Categories, 115 Products</p>
+                    <div class="orange-lines">
+                        <div class="line-top-left"></div>
+                        <div class="line-bottom-right"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="product-container">
+                <img id="product2" src="https://www.bedestructive.com/pictures/msecimgs/msec_1.jpg" alt="Product 2"
+                    class="product-image">
+                <div class="product-hover-info">
+                    <h4 class="product-name">Boxing Equipments</h4>
+                    <p class="product-desc">11 Categories 96 Products</p>
+                    <div class="orange-lines">
+                        <div class="line-top-left"></div>
+                        <div class="line-bottom-right"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="product-container">
+                <img id="product3" src="https://www.bedestructive.com/pictures/msecimgs/msec_6.jpg" alt="Product 3"
+                    class="product-image">
+                <div class="product-hover-info">
+                    <h4 class="product-name">Team Wear</h4>
+                    <p class="product-desc">6 Categories 50 Products</p>
+                    <div class="orange-lines">
+                        <div class="line-top-left"></div>
+                        <div class="line-bottom-right"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="product-row">
+            <div class="product-container">
+                <img id="product4" src="https://www.bedestructive.com/pictures/msecimgs/msec_3.jpg" alt="Product 4"
+                    class="product-image">
+                <div class="product-hover-info">
+                    <h4 class="product-name">Sports Wear</h4>
+                    <p class="product-desc">7 Categories 75 Products</p>
+                    <div class="orange-lines">
+                        <div class="line-top-left"></div>
+                        <div class="line-bottom-right"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="product-container">
+                <img id="product5" src="https://www.bedestructive.com/pictures/msecimgs/msec_7.jpg" alt="Product 5"
+                    class="product-image">
+                <div class="product-hover-info">
+                    <h4 class="product-name">MMA Wear</h4>
+                    <p class="product-desc">9 Categories 87 Products</p>
+                    <div class="orange-lines">
+                        <div class="line-top-left"></div>
+                        <div class="line-bottom-right"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="product-container">
+                <img id="product6" src="https://www.bedestructive.com/pictures/msecimgs/msec_8.jpg" alt="Product 6"
+                    class="product-image">
+                <div class="product-hover-info">
+                    <h4 class="product-name">Gym Wear</h4>
+                    <p class="product-desc">9 Categories 105 Products</p>
+                    <div class="orange-lines">
+                        <div class="line-top-left"></div>
+                        <div class="line-bottom-right"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="product-row">
+            <div class="product-container">
+                <img id="product7" src="https://www.bedestructive.com/pictures/msecimgs/msec_9.jpg" alt="Product 7"
+                    class="product-image">
+                <div class="product-hover-info">
+                    <h4 class="product-name">Gym Accessories</h4>
+                    <p class="product-desc">9 Categories 90 Products</p>
+                    <div class="orange-lines">
+                        <div class="line-top-left"></div>
+                        <div class="line-bottom-right"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Endz Product Images**************************************************************** -->
+    <!-- Start Featuers Product Section **************************************************** -->
+
+    <section class="feature-section">
+        <div class="container">
+            <h2 class="mb-5 mt-3" id="featuer_pro">Feature Products</h2>
+            <div class="row feature-products">
+                <!-- Product Card 1 -->
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="product-card">
+                        <img src="https://www.bedestructive.com/pictures/itmimgs/s/itm_s_336.jpg" alt="Product 1">
+                        <div class="product-overlay">
+                            <button>Details</button>
+                            <button>Add to Cart</button>
+                        </div>
+                        <div class="product-info">
+                            <h5>Product Name</h5>
+                            <p>SKU: ZI-TKS-001</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card 2 -->
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="product-card">
+                        <img src="https://www.bedestructive.com/pictures/itmimgs/s/itm_s_411.jpg" alt="Product 1">
+                        <div class="product-overlay">
+                            <button>Details</button>
+                            <button>Add to Cart</button>
+                        </div>
+                        <div class="product-info">
+                            <h5>Product Name</h5>
+                            <p>SKU: ZI-TKS-001</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card 3 -->
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="product-card">
+                        <img src="https://www.bedestructive.com/pictures/itmimgs/s/itm_s_315.jpg" alt="Product 1">
+                        <div class="product-overlay">
+                            <button>Details</button>
+                            <button>Add to Cart</button>
+                        </div>
+                        <div class="product-info">
+                            <h5>Product Name</h5>
+                            <p>SKU: ZI-TKS-001</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card 4 -->
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="product-card">
+                        <img src="https://www.bedestructive.com/pictures/itmimgs/s/itm_s_47.jpg" alt="Product 1">
+                        <div class="product-overlay">
+                            <button>Details</button>
+                            <button>Add to Cart</button>
+                        </div>
+                        <div class="product-info">
+                            <h5>Product Name</h5>
+                            <p>SKU: ZI-TKS-001</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card 5 -->
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="product-card">
+                        <img src="https://www.bedestructive.com/pictures/itmimgs/s/itm_s_663.jpg" alt="Product 1">
+                        <div class="product-overlay">
+                            <button>Details</button>
+                            <button>Add to Cart</button>
+                        </div>
+                        <div class="product-info">
+                            <h5>Product Name</h5>
+                            <p>SKU: ZI-TKS-001</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card 6 -->
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="product-card">
+                        <img src="https://www.bedestructive.com/pictures/itmimgs/s/itm_s_73.jpg" alt="Product 1">
+                        <div class="product-overlay">
+                            <button>Details</button>
+                            <button>Add to Cart</button>
+                        </div>
+                        <div class="product-info">
+                            <h5>Product Name</h5>
+                            <p>SKU: ZI-TKS-001</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card 7 -->
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="product-card">
+                        <img src="https://www.bedestructive.com/pictures/itmimgs/s/itm_s_297.jpg" alt="Product 1">
+                        <div class="product-overlay">
+                            <button>Details</button>
+                            <button>Add to Cart</button>
+                        </div>
+                        <div class="product-info">
+                            <h5>Product Name</h5>
+                            <p>SKU: ZI-TKS-001</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card 8 -->
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="product-card">
+                        <img src="https://www.bedestructive.com/pictures/itmimgs/s/itm_s_396.jpg" alt="Product 1">
+                        <div class="product-overlay">
+                            <button>Details</button>
+                            <button>Add to Cart</button>
+                        </div>
+                        <div class="product-info">
+                            <h5>Product Name</h5>
+                            <p>SKU: ZI-TKS-001</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+    <!-- Why Choose us Section *************************************************************** -->
+    <section id="why-choose-us" class="container py-5">
+        <div class="text-center mb-4">
+            <h2 class="section-title" id="why_choose">Why Choose Us?</h2>
+            <p class="section-subtitle">Delivering quality and excellence in every product.</p>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-3">
+                <div class="feature-box">
+                    <i class="fas fa-star icon"></i>
+                    <h4>Premium Quality</h4>
+                    <p>We ensure top-notch materials and craftsmanship.</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="feature-box">
+                    <i class="fas fa-cogs icon"></i>
+                    <h4>Customization</h4>
+                    <p>We offer custom designs to match your needs.</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="feature-box">
+                    <i class="fas fa-dollar-sign icon"></i>
+                    <h4>Competitive Pricing</h4>
+                    <p>Best prices with uncompromised quality.</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="feature-box">
+                    <i class="fas fa-shipping-fast icon"></i>
+                    <h4>Worldwide Shipping</h4>
+                    <p>Fast and reliable global delivery.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Why Choose us Section *************************************************************** -->
+    <!-- New Arrivals*************************************************************************** -->
+    <section class="new-arrivals mt-3">
+        <div class="row justify-content-center">
+            <h2 style="color: red; text-align: center; font-weight: bold;" id="new_head">New Arrivals</h2>
+            <div class="col-md-2 mt-5">
+                <div class="product-card-1">
+                    <span class="new-badge">New</span>
+                    <img id="product_new" src="https://www.bedestructive.com/pictures/itmimgs/s/itm_s_219.jpg"
+                        alt="Product 2">
+                    <div class="product-info-1">
+                        <div class="new_flex1 mt-0">
+                            <div class="span"><span id="trap">ZI_SK_0001</span></div>
+                            <div class="heart-icon"><i class="fas fa-heart"></i></div>
+                        </div>
+                        <h5 id="product_name">Weightlifting Gloves</h5>
+                        <div class="new_flex2">
+                            <div class="add-to-cart-1"><i class="fas fa-shopping-cart"></i></div>
+                            <button class="btn btn-outline-danger" id="details-new">Details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 mt-5">
+                <div class="product-card-1">
+                    <span class="new-badge">New</span>
+                    <img id="product_new" src="https://www.bedestructive.com/pictures/itmimgs/s/itm_s_3876.jpg"
+                        alt="Product 2">
+                    <div class="product-info-1">
+                        <div class="new_flex1 mt-0">
+                            <div class="span"><span id="trap">ZI_SK_0001</span></div>
+                            <div class="heart-icon"><i class="fas fa-heart"></i></div>
+                        </div>
+                        <h5 id="product_name">Gym Trousers</h5>
+                        <div class="new_flex2">
+                            <div class="add-to-cart-1"><i class="fas fa-shopping-cart"></i></div>
+                            <button class="btn btn-outline-danger" id="details-new">Details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 mt-5">
+                <div class="product-card-1">
+                    <span class="new-badge">New</span>
+                    <img id="product_new" src="https://www.bedestructive.com/pictures/itmimgs/s/itm_s_398.jpg"
+                        alt="Product 2">
+                    <div class="product-info-1">
+                        <div class="new_flex1 mt-0">
+                            <div class="span"><span id="trap">ZI_SK_0001</span></div>
+                            <div class="heart-icon"><i class="fas fa-heart"></i></div>
+                        </div>
+                        <h5 id="product_name">Arm Shield</h5>
+                        <div class="new_flex2">
+                            <div class="add-to-cart-1"><i class="fas fa-shopping-cart"></i></div>
+                            <button class="btn btn-outline-danger" id="details-new">Details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 mt-5">
+                <div class="product-card-1">
+                    <span class="new-badge">New</span>
+                    <img id="product_new" src="https://www.bedestructive.com/pictures/itmimgs/s/itm_s_190.jpg"
+                        alt="Product 2">
+                    <div class="product-info-1">
+                        <div class="new_flex1 mt-0">
+                            <div class="span"><span id="trap">ZI_SK_0001</span></div>
+                            <div class="heart-icon"><i class="fas fa-heart"></i></div>
+                        </div>
+                        <h5 id="product_name">Boxing Gloves</h5>
+                        <div class="new_flex2">
+                            <div class="add-to-cart-1"><i class="fas fa-shopping-cart"></i></div>
+                            <button class="btn btn-outline-danger" id="details-new">Details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 mt-5">
+                <div class="product-card-1">
+                    <span class="new-badge">New</span>
+                    <img id="product_new" src="https://www.bedestructive.com/pictures/itmimgs/s/itm_s_414.jpg"
+                        alt="Product 2">
+                    <div class="product-info-1">
+                        <div class="new_flex1 mt-0">
+                            <div class="span"><span id="trap">ZI_SK_0001</span></div>
+                            <div class="heart-icon"><i class="fas fa-heart"></i></div>
+                        </div>
+                        <h5 id="product_name">Boxing Bags</h5>
+                        <div class="new_flex2">
+                            <div class="add-to-cart-1"><i class="fas fa-shopping-cart"></i></div>
+                            <button class="btn btn-outline-danger" id="details-new">Details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 mt-5">
+                <div class="product-card-1">
+                    <span class="new-badge">New</span>
+                    <img id="product_new" src="https://www.bedestructive.com/pictures/itmimgs/s/itm_s_710.jpg"
+                        alt="Product 2">
+                    <div class="product-info-1">
+                        <div class="new_flex1 mt-0">
+                            <div class="span"><span id="trap">ZI_SK_0001</span></div>
+                            <div class="heart-icon"><i class="fas fa-heart"></i></div>
+                        </div>
+                        <h5 id="product_name">Ice Hockey Uniforms</h5>
+                        <div class="new_flex2">
+                            <div class="add-to-cart-1"><i class="fas fa-shopping-cart"></i></div>
+                            <button class="btn btn-outline-danger" id="details-new">Details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 mt-5">
+                <div class="product-card-1">
+                    <span class="new-badge">New</span>
+                    <img id="product_new" src="https://www.bedestructive.com/pictures/itmimgs/s/itm_s_7.jpg"
+                        alt="Product 2">
+                    <div class="product-info-1">
+                        <div class="new_flex1 mt-0">
+                            <div class="span"><span id="trap">ZI_SK_0001</span></div>
+                            <div class="heart-icon"><i class="fas fa-heart"></i></div>
+                        </div>
+                        <h5 id="product_name">Track Suits</h5>
+                        <div class="new_flex2">
+                            <div class="add-to-cart-1"><i class="fas fa-shopping-cart"></i></div>
+                            <button class="btn btn-outline-danger" id="details-new">Details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 mt-5">
+                <div class="product-card-1">
+                    <span class="new-badge">New</span>
+                    <img id="product_new" src="https://www.bedestructive.com/pictures/itmimgs/s/itm_s_4691.jpg"
+                        alt="Product 2">
+                    <div class="product-info-1">
+                        <div class="new_flex1 mt-0">
+                            <div class="span"><span id="trap">ZI_SK_0001</span></div>
+                            <div class="heart-icon"><i class="fas fa-heart"></i></div>
+                        </div>
+                        <h5 id="product_name">Yoga Wears</h5>
+                        <div class="new_flex2">
+                            <div class="add-to-cart-1"><i class="fas fa-shopping-cart"></i></div>
+                            <button class="btn btn-outline-danger" id="details-new">Details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 mt-5">
+                <div class="product-card-1">
+                    <span class="new-badge">New</span>
+                    <img id="product_new" src="https://www.bedestructive.com/pictures/itmimgs/s/itm_s_93.jpg"
+                        alt="Product 2">
+                    <div class="product-info-1">
+                        <div class="new_flex1 mt-0">
+                            <div class="span"><span id="trap">ZI_SK_0001</span></div>
+                            <div class="heart-icon"><i class="fas fa-heart"></i></div>
+                        </div>
+                        <h5 id="product_name">Rash Guards</h5>
+                        <div class="new_flex2">
+                            <div class="add-to-cart-1"><i class="fas fa-shopping-cart"></i></div>
+                            <button class="btn btn-outline-danger" id="details-new">Details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Whatsapp Icon ************************************************************************************************* -->
+    <a href="https://wa.me/923466766569" target="_blank" class="whatsapp-icon">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+
+    <!-- New Arrivals Endz*************************************************************************** -->
+
+    <!-- ********************************Footer*************************************************************************** -->
+    <!-- Top Info Section -->
+    <div class="top-info mt-5">
+        <div id="Fws"><i class="fas fa-truck"></i> Fast Worldwide Shipping</div>
+        <hr>
+        <div id="hr">|</div>
+        <div id="Fws"><i class="fas fa-undo"></i> 30 Days Returns</div>
+        <hr>
+        <div id="hr">|</div>
+        <div id="Fws"><i class="fas fa-headset"></i> 24/7 Support</div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <!-- Get in Touch -->
+                <div class="col-md-4">
+                    <h2 id="footer_h2">Get in Touch</h2>
+                    <hr>
+                    <p>Any questions? Let us know in store at</p>
+                    <p>ZHOST Intl.</p>
+                    <p>Old Adalat Garha, Wazirabad Road, Sialkot - 51310 - Pakistan.</p>
+                    <p>Call us: <a href="tel:+923466766569" class="text-white">+92 346 6766569</a></p>
+                    <div class="top_icon mt-3">
+                        <a href="#"><i id="top_icons" class="fab fa-instagram"></i></a>
+                        <a href="#"><i id="top_icons" class="fab fa-facebook"></i></a>
+                        <a href="#"><i id="top_icons" class="fab fa-twitter"></i></a>
+                        <a href="#"><i id="top_icons" class="fab fa-linkedin"></i></a>
+                        <a href="#"><i id="top_icons" class="fab fa-threads"></i></a>
+                    </div>
+                </div>
+
+                <!-- Categories -->
+                <div class="col-md-4">
+                    <h2 id="footer_h2">Categories</h2>
+                    <hr>
+                    <ul>
+                        <li><a href="#">Martial Arts Wear</a></li>
+                        <li><a href="#">Boxing Equipments</a></li>
+                        <li><a href="#">Team Wear</a></li>
+                        <li><a href="#">Sports Wear</a></li>
+                        <li><a href="#">MMA Wear</a></li>
+                        <li><a href="#">Gym Wear</a></li>
+                        <li><a href="#">Gym Accessories</a></li>
+                    </ul>
+                </div>
+
+                <!-- Newsletter -->
+                <div class="col-md-4">
+                    <h2 id="footer_h2">Newsletters</h2>
+                    <hr>
+                    <div class="newsletter mt-5">
+                        <input type="email" placeholder="example@gmail.com">
+                        <button class="mt-3" id="subscribe">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <hr class="bg-white">
+
+            <!-- Payment Methods -->
+            <div class="text-center py-3">
+                <img src="paypal.png" alt="Paypal" width="30">
+                <img src="visa.png" alt="Visa" width="30">
+                <img src="mastercard.png" alt="MasterCard" width="30">
+                <img src="express.png" alt="Express" width="30">
+                <img src="discover.png" alt="Discover" width="30">
+            </div>
+
+            <hr class="bg-white">
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                &copy; Copyright 2012 - 2025 ZHOST Intl. All rights reserved.
+                Developed by <a href="#">MUHAMMAD BILAL</a>
+            </div>
+        </div>
+        <!-- Scripts************************************************************* -->
+        <!-- Script **************************************************************************** -->
+        <script>
+            $(document).ready(function () {
+                let interval = 10000;
+                if (window.innerWidth <= 768) {
+                    interval = 15000;
+                }
+                setInterval(function () {
+                    $("#customSlider").carousel("next");
+                }, interval); // Auto-slide after 10 seconds, 15 seconds on mobile
+            });
+
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
